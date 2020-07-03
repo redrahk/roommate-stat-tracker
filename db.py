@@ -2,7 +2,7 @@ import sqlite3 as sqlite
 import json
 from json import JSONEncoder
 
-DB_NAME = "test.db"
+DB_NAME = "/home/pi/data/db/test.db"
 
 class Roommate:
 	def __init__(self, name, stats):
