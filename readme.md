@@ -6,6 +6,7 @@ Meant to eventually run on a raspberry pi zero for remote stat tracking of stupi
 
 ## Main table schema
 
+SQLite3 used for a simple local database  
 `CREATE TABLE table_name (id integer primary key, name text, stat text, amount integer);`
 
 ## Dependencies
